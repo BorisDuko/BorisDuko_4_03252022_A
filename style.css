@@ -1048,3 +1048,9 @@ h4 {
     text-align: center;
   }
 }
+
+/* changes I made  */
+blockquote {
+  border-left: none;
+  font-style: italic;
+}
