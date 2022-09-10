@@ -1054,3 +1054,6 @@ blockquote {
   border-left: none;
   font-style: italic;
 }
+figcaption {
+  margin-top: -28px;
+}
