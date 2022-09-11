@@ -24,7 +24,8 @@ a:hover {
   bottom: 0;
   width: 100%;
   z-index: 100000;
-  background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
+  background: #ffffff url("img/pageload-spinner.gif") no-repeat center
+    center;
 }
 
 .bloc {
@@ -539,8 +540,8 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
   content: "+";
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-    Helvetica, Arial;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+    "Helvetica Neue", Helvetica, Arial;
   font-size: 32px;
   width: 50px;
   height: 50px;
@@ -1049,11 +1050,38 @@ h4 {
   }
 }
 
-/* changes I made  */
+/* Changes were made during the audit  */
+
+/* change image with text to quote text  */
 blockquote {
   border-left: none;
   font-style: italic;
 }
 figcaption {
   margin-top: -28px;
+}
+/* increase font size */
+
+/* services  */
+.service-header {
+  font-size: 18px;
+}
+#bloc-2-services p {
+  font-size: 16px;
+}
+blockquote {
+  font-size: 19px;
+}
+
+/* what i do  */
+h2 {
+  font-size: 24px;
+}
+p {
+  font-size: 14px;
+}
+
+/* portfolio  */
+h3 {
+  font-size: 16px;
 }
