@@ -1093,3 +1093,10 @@ h3 {
   background: #ef6f34;
   color: #ffffff !important;
 }
+
+/* mobile layout fix  */
+
+.social {
+  display: flex;
+  justify-content: space-between;
+}
