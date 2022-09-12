@@ -283,10 +283,6 @@ a:hover {
   padding-left: 0;
 }
 
-#bloc-2-services p {
-  font-size: 11px;
-}
-
 .navbar {
   margin-bottom: 0;
   z-index: 1;
@@ -674,9 +670,9 @@ a {
   margin: auto auto auto auto;
 }
 
-p {
+/* p {
   font-size: 12px;
-}
+} */
 
 .tight-width-whitespace {
   max-width: 600px;
@@ -1061,7 +1057,7 @@ figcaption {
 .service-header {
   font-size: 18px;
 }
-#bloc-2-services p {
+p {
   font-size: 16px;
 }
 blockquote {
@@ -1071,9 +1067,6 @@ blockquote {
 /* what i do  */
 h2 {
   font-size: 24px;
-}
-p {
-  font-size: 14px;
 }
 
 /* portfolio  */
@@ -1099,4 +1092,10 @@ h3 {
 .social {
   display: flex;
   justify-content: space-between;
+}
+
+/* images with text transform  */
+
+.imageToText {
+  font-size: 30px;
 }
